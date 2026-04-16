@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+body {
+  @apply min-h-screen bg-white text-slate-900 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100;
+}
+
+#app {
+  @apply min-h-screen;
+}
+
+.container-shell {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.glass-panel {
+  @apply border border-white/40 bg-white/80 backdrop-blur-xl dark:border-slate-800/80 dark:bg-slate-900/75;
+}
+
+.section-space {
+  @apply py-12 sm:py-16 lg:py-20;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-fuchsia-500 via-violet-500 to-sky-500 bg-clip-text text-transparent;
+}
