@@ -2,7 +2,7 @@
   <footer class="bg-white border-t border-slate-200 dark:border-slate-800 dark:bg-slate-950">
     <div class="grid gap-10 py-12 container-shell md:grid-cols-3">
       <div>
-        <p class="text-sm font-semibold uppercase tracking-[0.35em] text-slate-500">ÉLAN MODE</p>
+        <p class="text-sm font-semibold uppercase tracking-[0.35em] text-slate-500">NAURA</p>
         <p class="max-w-sm mt-4 text-sm leading-7 text-slate-600 dark:text-slate-300">
           A refined digital boutique focused on elevated silhouettes, everyday luxury, and effortless personal style.
         </p>

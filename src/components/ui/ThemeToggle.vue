@@ -11,6 +11,6 @@ const { isDark, toggleTheme } = useTheme()
     @click="toggleTheme"
   >
     <span>{{ isDark ? 'Light' : 'Dark' }}</span>
-    <span class="text-base">{{ isDark ? '☀️' : '🌙' }}</span>
+    <span class="text-base">{{ isDark ? '' : '🌙' }}</span>
   </button>
 </template>

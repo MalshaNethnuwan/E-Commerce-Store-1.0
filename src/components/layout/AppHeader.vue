@@ -25,10 +25,12 @@ const isActive = computed(() => (path: string) => route.path === path)
   <header class="sticky top-0 z-50 border-b border-slate-200/70 bg-white/85 backdrop-blur-xl dark:border-slate-800 dark:bg-slate-950/85">
     <div class="flex items-center justify-between h-20 gap-4 container-shell">
       <RouterLink to="/" class="flex items-center gap-3">
-        <div class="rounded-2xl bg-slate-950 px-3 py-2 text-sm font-bold tracking-[0.35em] text-white dark:bg-white dark:text-slate-950">NR</div>
+        <div class="rounded-2xl bg-slate-950 px-3 py-2 text-sm font-bold tracking-[0.35em] text-white dark:bg-white dark:text-slate-950">NAURA</div>
         <div>
-          <p class="text-sm font-semibold uppercase tracking-[0.35em] text-slate-500">NAURA</p>
-          <p class="text-xs text-slate-500 dark:text-slate-400">Modern luxury essentials</p>
+          <p class="text-sm font-semibold uppercase tracking-[0.35em] text-slate-500"></p>
+          <p class="text-xs text-slate-500 dark:text-slate-400">Modern luxury essentials.<br>
+            Wear Your Style,Own Your Confidence.
+          </p>
         </div>
       </RouterLink>
 

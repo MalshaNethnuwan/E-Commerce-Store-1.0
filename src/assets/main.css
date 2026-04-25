@@ -11,7 +11,7 @@
 }
 
 body {
-  @apply min-h-screen bg-white text-slate-900 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100;
+  @apply min-h-screen transition-colors duration-300 to-blue-300 text-slate-900 dark:bg-slate-950 dark:text-slate-100;
 }
 
 #app {
@@ -19,7 +19,7 @@ body {
 }
 
 .container-shell {
-  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  @apply w-full px-4 mx-auto max-w-7xl sm:px-6 lg:px-8;
 }
 
 .glass-panel {
@@ -31,5 +31,5 @@ body {
 }
 
 .gradient-text {
-  @apply bg-gradient-to-r from-fuchsia-500 via-violet-500 to-sky-500 bg-clip-text text-transparent;
+  @apply text-transparent bg-gradient-to-r from-fuchsia-500 via-violet-500 to-sky-500 bg-clip-text;
 }

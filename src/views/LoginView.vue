@@ -59,7 +59,7 @@ const handleSubmit = async (): Promise<void> => {
             <label for="password" class="block mb-2 text-sm font-medium text-slate-700 dark:text-slate-200">Password</label>
             <input id="password" v-model="form.password" type="password" required class="w-full px-4 py-3 text-sm rounded-2xl border-slate-300 bg-slate-50 focus:border-slate-900 focus:ring-slate-900 dark:border-slate-700 dark:bg-slate-800 dark:text-white dark:focus:border-white dark:focus:ring-white" />
           </div>
-          <p class="text-sm text-slate-500 dark:text-slate-400">Use valid DummyJSON account credentials to test the authentication flow.</p>
+          <p class="text-sm text-slate-500 dark:text-slate-400">Welcome to NAURA . Where Your Style Begins.</p>
           <p v-if="authStore.error" class="px-4 py-3 text-sm rounded-2xl bg-rose-50 text-rose-600 dark:bg-rose-950/50 dark:text-rose-300">
             {{ authStore.error }}
           </p>
