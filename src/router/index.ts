@@ -5,10 +5,8 @@ import ProductDetailsView from '@/views/ProductDetailsView.vue'
 import LoginView from '@/views/LoginView.vue'
 import FavoritesView from '@/views/FavoritesView.vue'
 
-createWebHistory('/E-Commerce-Store-1.0/')
-
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/E-Commerce-Store-1.0/'),
   routes: [
     { path: '/', name: 'home', component: HomeView },
     { path: '/shop', name: 'shop', component: ShopView },
