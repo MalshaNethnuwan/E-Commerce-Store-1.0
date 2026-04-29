@@ -1,4 +1,5 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
+
 import HomeView from '@/views/HomeView.vue'
 import ShopView from '@/views/ShopView.vue'
 import ProductDetailsView from '@/views/ProductDetailsView.vue'
@@ -6,7 +7,7 @@ import LoginView from '@/views/LoginView.vue'
 import FavoritesView from '@/views/FavoritesView.vue'
 
 const router = createRouter({
-  history: createWebHistory('/E-Commerce-Store-1.0/'),
+  history: createWebHashHistory(), 
   routes: [
     { path: '/', name: 'home', component: HomeView },
     { path: '/shop', name: 'shop', component: ShopView },

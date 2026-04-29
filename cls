@@ -1,0 +1,12 @@
+  cart[m
+  composables[m
+  home[m
+  layout[m
+* [32mmain[m
+  product[m
+  router[m
+  stores[m
+  types[m
+  ui[m
+  utils[m
+  views[m
