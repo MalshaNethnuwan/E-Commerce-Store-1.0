@@ -28,8 +28,8 @@ const isActive = computed(() => (path: string) => route.path === path)
         <div class="rounded-2xl bg-slate-950 px-3 py-2 text-sm font-bold tracking-[0.35em] text-white dark:bg-white dark:text-slate-950">NAURA</div>
         <div>
           <p class="text-sm font-semibold uppercase tracking-[0.35em] text-slate-500"></p>
-          <p class="text-xs text-slate-500 dark:text-slate-400">Modern luxury essentials.<br>
-            Wear Your Style,Own Your Confidence.
+          <p class="text-xs text-slate-500 dark:text-slate-400">Modern luxury essentials
+            
           </p>
         </div>
       </RouterLink>
