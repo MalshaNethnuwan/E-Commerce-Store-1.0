@@ -29,7 +29,7 @@ const handleSubmit = async (): Promise<void> => {
     <div class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
       <div>
         <p class="text-sm font-semibold uppercase tracking-[0.35em] text-fuchsia-500">Client account</p>
-        <h1 class="mt-4 text-4xl font-bold tracking-tight text-slate-900 dark:text-white">Welcome back to ÉLAN MODE</h1>
+        <h1 class="mt-4 text-4xl font-bold tracking-tight text-slate-900 dark:text-white">Welcome back to NAURA</h1>
         <p class="max-w-xl mt-4 text-lg leading-8 text-slate-600 dark:text-slate-300">
           Sign in to keep your experience seamless across sessions with account-aware state and persistent access.
         </p>
