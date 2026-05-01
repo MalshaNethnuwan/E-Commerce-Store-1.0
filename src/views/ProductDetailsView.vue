@@ -88,7 +88,7 @@ const discountedPrice = computed(() => {
           <div class="mt-10 grid gap-5 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-soft dark:border-slate-800 dark:bg-slate-900 sm:grid-cols-2">
             <div>
               <p class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-500">Brand</p>
-              <p class="mt-2 font-semibold text-slate-900 dark:text-white">{{ product.brand ?? 'ÉLAN Signature' }}</p>
+              <p class="mt-2 font-semibold text-slate-900 dark:text-white">{{ product.brand ?? 'NAURA Signature' }}</p>
             </div>
             <div>
               <p class="text-sm font-semibold uppercase tracking-[0.25em] text-slate-500">SKU</p>
